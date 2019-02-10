@@ -11,9 +11,6 @@ header,nav,section,aside,footer {
 header {
     width: 100%;
 }
-article {
-    color:#ebebeb;
-}
 
 .main-header {
     width: 960px;
@@ -57,11 +54,34 @@ ul li {
     color: black;
 }
 
-.about-me_text {
-    font-size: 25px;
+.main-content-header {
+    font-size: 30px;
     padding: 20px 0;
+    color: blue;
 }
 
 .main-content {
     padding: 0 20px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    width: 100px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.label {
+    font-size: 20px;
 }
