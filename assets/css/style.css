@@ -85,3 +85,14 @@ input[type=text], textarea {
 .label {
     font-size: 20px;
 }
+
+article {
+    float: left;
+    padding: 100px;
+}
+
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: block;
+  }
